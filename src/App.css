@@ -1,8 +1,10 @@
 @import url('./stylesheets/colors/backgroundColors.css');
+@import url('./stylesheets/colors/textColors.css');
 @import url('./stylesheets/navbar.css');
 @import url('./stylesheets/menu.css');
 @import url('./stylesheets/toggle.css');
 @import url('./stylesheets/mainWidget.css');
+@import url('./stylesheets/insights.css');
 @import url('./stylesheets/card.css');
 @import url('./stylesheets/footer.css');
 

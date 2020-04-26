@@ -1,0 +1,38 @@
+#username {
+  position: relative;
+  width: 16%;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px #000;
+  transition: top 5s ease;
+}
+
+#commits {
+  position: relative;
+  width: 16%;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px #000;
+  transition: top 5s ease;
+}
+
+#repositories {
+  position: relative;
+  width: 16%;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px #000;
+  transition: top 5s ease;
+}
+
+#username:hover {
+  top: -1px;
+  background-color: #41f0ca46 !important;
+}
+
+#commits:hover {
+  top: -1px;
+  background-color: #41f0ca46 !important;
+}
+
+#repositories:hover {
+  top: -1px;
+  background-color: #41f0ca46 !important;
+}
