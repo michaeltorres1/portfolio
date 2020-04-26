@@ -4,11 +4,11 @@ const Menu = () => {
   return (
     <div id='menuWidget' className='flex flex-column bg-primary-light mr-3 p-2'>
       <div className='menu-link'>
-        <div className='font-weight-lighter text-light d-flex justify-content-center'>
+        <div className='font-weight-bold text-light d-flex justify-content-center'>
           MT
         </div>
       </div>
-      <hr className='bg-light' />
+      <hr className='bg-dark' />
       <div className='mb-4 menu-link'>
         <i className='fas fa-graduation-cap text-light fa-2x'></i>
       </div>

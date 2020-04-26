@@ -3,7 +3,7 @@ body {
 }
 
 .bg-primary {
-  background-color: #e24dca !important;
+  background-color: #1d9cf7 !important;
 }
 
 .bg-dark {
@@ -33,7 +33,7 @@ body {
   width: 5%;
   border-radius: 5px;
   box-shadow: 1px 1px 10px #000;
-  background: linear-gradient(#811f71, #293f50);
+  background: linear-gradient(#12629b, #06304e);
   -webkit-transition: 0.5s ease-in-out;
   -moz-transition: 0.5s ease-in-out;
   -o-transition: 0.5s ease-in-out;
@@ -60,5 +60,5 @@ body {
   width: 30%;
   border-radius: 5px;
   box-shadow: 1px 1px 10px #000;
-  background: linear-gradient(#4d1143, #293f50);
+  background: linear-gradient(#12629b, #06304e);
 }
