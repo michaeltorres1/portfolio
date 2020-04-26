@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <nav id='nav' className='navbar bg-dark'>
       <div id='navTitle' className='font-weight-lighter text-light'>
-        DASHBOARD
+        MT
       </div>
       <div className='search text-light'>
         <i className='fas fa-search mr-5 nav-link'></i>

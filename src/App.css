@@ -21,7 +21,15 @@ body {
 
 #navTitle,
 .nav-link {
+  position: relative;
   font-size: 1.3rem;
+  transition: top 5s ease;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+  color: #41f0ca;
+  top: -1px;
 }
 
 .menu-link {
@@ -56,9 +64,15 @@ body {
 }
 
 .card-widget {
+  position: relative;
+  transition: top 5s ease;
   padding: 5px 20px 5px 20px;
   width: 30%;
   border-radius: 5px;
   box-shadow: 1px 1px 10px #000;
-  background: linear-gradient(#12629b, #06304e);
+  background: linear-gradient(#06304e, #06304e);
+}
+
+.card-widget:hover {
+  top: -1px;
 }

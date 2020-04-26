@@ -3,7 +3,7 @@ import React from 'react';
 const CardOne = () => {
   return (
     <div className='card-widget d-flex flex-column'>
-      <div className='font-weight-light text-light text-center'>My Journey</div>
+      <div className='font-weight-bold text-light text-center'>My Journey</div>
       <hr />
       <div>
         <p className='text-light font-weight-lighter text-center'>
