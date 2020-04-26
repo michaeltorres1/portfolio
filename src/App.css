@@ -54,3 +54,11 @@ body {
 #menuWidget:hover {
   width: 30%;
 }
+
+.card-widget {
+  padding: 5px 20px 5px 20px;
+  width: 30%;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px #000;
+  background: linear-gradient(#4d1143, #293f50);
+}

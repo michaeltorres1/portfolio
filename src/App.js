@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 import Navbar from './components/common/Navbar';
 import Menu from './components/widgets/Menu';
 import MainWidget from './components/widgets/Main';
+import Cards from './components/widgets/cards/Cards';
 
 const App = () => (
   <Fragment>
@@ -11,6 +12,7 @@ const App = () => (
       <Menu />
       <MainWidget />
     </div>
+    <Cards />
   </Fragment>
 );
 
