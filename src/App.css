@@ -19,6 +19,11 @@ body {
   box-shadow: 1px 1px 1px #000;
 }
 
+#navTitle,
+.nav-link {
+  font-size: 1.3rem;
+}
+
 #menuWidget {
   border-radius: 5px;
   box-shadow: 1px 1px 10px #000;
