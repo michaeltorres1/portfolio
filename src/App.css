@@ -16,7 +16,7 @@ img {
   width: 100%;
 }
 
-@media (min-width: 800px) {
+@media (max-width: 869px) {
   #menuWidget {
     width: 10%;
   }
