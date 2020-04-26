@@ -80,3 +80,16 @@ body {
 #footer {
   background: linear-gradient(#27293d, #243442);
 }
+
+#toggleLight {
+  position: fixed;
+  right: 0px;
+  top: 50%;
+  transition: top 5s ease;
+  z-index: 1000;
+}
+
+#toggleLight:hover {
+  cursor: pointer;
+  padding-right: 1px;
+}
