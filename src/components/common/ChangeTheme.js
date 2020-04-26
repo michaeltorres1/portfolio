@@ -13,7 +13,7 @@ const ChangeTheme = () => {
   return (
     <StyleRoot>
       <div id='toggleLight' className='test' style={styles.fadeInDownBig}>
-        <i className='fas fa-adjust fa-2x text-warning bg-dark p-2 pr-4'></i>
+        <i className='fas fa-adjust fa-2x text-warning p-2 pr-4'></i>
       </div>
     </StyleRoot>
   );
