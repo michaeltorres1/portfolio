@@ -1,10 +1,21 @@
 import React from 'react';
+import { fadeInDownBig } from 'react-animations';
+import Radium, { StyleRoot } from 'radium';
+
+const styles = {
+  fadeInDownBig: {
+    animation: 'x 3s',
+    animationName: Radium.keyframes(fadeInDownBig, 'fadeInDownBig'),
+  },
+};
 
 const ChangeTheme = () => {
   return (
-    <div id='toggleLight'>
-      <i className='fas fa-adjust fa-2x text-info bg-dark p-2 pr-4'></i>
-    </div>
+    <StyleRoot>
+      <div id='toggleLight' className='test' style={styles.fadeInDownBig}>
+        <i className='fas fa-adjust fa-2x text-warning bg-dark p-2 pr-4'></i>
+      </div>
+    </StyleRoot>
   );
 };
 
