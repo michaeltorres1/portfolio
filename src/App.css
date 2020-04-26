@@ -24,7 +24,28 @@ body {
   font-size: 1.3rem;
 }
 
+.menu-link {
+  display: flex;
+  justify-content: center;
+}
+
 #menuWidget {
   border-radius: 5px;
   box-shadow: 1px 1px 10px #000;
+  background: linear-gradient(#811f71, #293f50);
+}
+
+.this-menu {
+  width: 50px;
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+.this-menu:hover {
+  width: 200px;
+}
+
+.this-menu:hover > #menuWidget > .menu-link {
 }
