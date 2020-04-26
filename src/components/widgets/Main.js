@@ -2,8 +2,8 @@ import React from 'react';
 
 const Main = () => {
   return (
-    <div id='mainWidget' className='text-light'>
-      this is the main widget
+    <div id='mainWidget' className='d-flex justify-content-center text-light'>
+      <div className='font-weight-bold mt-1'>EDUCATION</div>
     </div>
   );
 };
