@@ -9,3 +9,17 @@ body {
 .bg-dark {
   background-color: #1d1e2e !important;
 }
+
+.bg-primary-light {
+  background-color: #e24dca;
+}
+
+#nav {
+  padding: 20px;
+  box-shadow: 1px 1px 1px #000;
+}
+
+#menuWidget {
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px #000;
+}
