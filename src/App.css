@@ -30,22 +30,27 @@ body {
 }
 
 #menuWidget {
+  width: 5%;
   border-radius: 5px;
   box-shadow: 1px 1px 10px #000;
   background: linear-gradient(#811f71, #293f50);
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
-.this-menu {
-  width: 50px;
-  -webkit-transition: 1s ease-in-out;
-  -moz-transition: 1s ease-in-out;
-  -o-transition: 1s ease-in-out;
-  transition: 1s ease-in-out;
+#mainWidget {
+  width: 93%;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px #000;
+  background: linear-gradient(#27293d, #243442);
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
-.this-menu:hover {
-  width: 200px;
-}
-
-.this-menu:hover > #menuWidget > .menu-link {
+#menuWidget:hover {
+  width: 30%;
 }
