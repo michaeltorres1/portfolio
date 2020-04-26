@@ -11,7 +11,7 @@ const App = () => (
     <ChangeTheme />
     <hr className='w-100 bg-primary mt-0 mb-0' />
     <Navbar />
-    <div className='d-flex ml-3 mt-3'>
+    <div className='d-flex ml-3 mt-3 mobile-view'>
       <Menu />
       <MainWidget />
     </div>

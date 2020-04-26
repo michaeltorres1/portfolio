@@ -6,7 +6,7 @@ const Navbar = () => {
       <div id='navTitle' className='font-weight-lighter text-light'>
         MT
       </div>
-      <div className='search text-light'>
+      <div className='search text-light nav-search-links'>
         <i className='fas fa-search mr-5 nav-link'></i>
         <i class='fab fa-github mr-5 nav-link'></i>
         <i class='fab fa-angellist mr-5 nav-link'></i>

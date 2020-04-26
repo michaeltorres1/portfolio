@@ -5,7 +5,7 @@ import CardThree from './CardThree';
 
 const Cards = () => {
   return (
-    <div className='d-flex row justify-content-between ml-3 mr-3 mt-3'>
+    <div className='d-flex row justify-content-between ml-3 mr-3 mt-3 mobile-view'>
       <CardOne />
       <CardTwo />
       <CardThree />

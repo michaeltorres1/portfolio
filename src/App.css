@@ -15,3 +15,61 @@ body {
 img {
   width: 100%;
 }
+
+@media (min-width: 800px) {
+  #menuWidget {
+    width: 10%;
+  }
+
+  #mainWidget {
+    width: 86%;
+  }
+
+  .card-widget {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 1px !important;
+    margin-right: 1px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .card-widget {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 1px !important;
+    margin-right: 1px !important;
+  }
+
+  #menuWidget {
+    width: 96%;
+  }
+
+  #mainWidget {
+    margin-top: 20px;
+    width: 96%;
+    margin-right: 2px;
+  }
+
+  .mobile-view {
+    flex-wrap: wrap;
+    flex-direction: column !important;
+    justify-content: center;
+  }
+
+  #nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .nav-search-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .nav-link {
+    margin-right: 0px !important;
+  }
+}
