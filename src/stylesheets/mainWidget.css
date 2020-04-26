@@ -1,0 +1,10 @@
+#mainWidget {
+  width: 93%;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px #000;
+  background: linear-gradient(#27293d, #243442);
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}

@@ -1,0 +1,17 @@
+#nav {
+  padding: 20px;
+  box-shadow: 1px 1px 1px #000;
+}
+
+#navTitle,
+.nav-link {
+  position: relative;
+  font-size: 1.3rem;
+  transition: top 5s ease;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+  color: #41f0ca;
+  top: -1px;
+}

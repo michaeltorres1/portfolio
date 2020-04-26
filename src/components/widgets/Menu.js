@@ -9,22 +9,22 @@ const Menu = () => {
         </div>
       </div>
       <hr className='bg-dark' />
-      <div className='mb-4 menu-link'>
+      <div className='mb-4 menu-link nav-link'>
         <i className='fas fa-graduation-cap text-light fa-2x'></i>
       </div>
-      <div className='mb-4 menu-link'>
+      <div className='mb-4 menu-link nav-link'>
         <i className='fas fa-book-open text-light fa-2x'></i>
       </div>
-      <div className='mb-4 menu-link'>
+      <div className='mb-4 menu-link nav-link'>
         <i className='fab fa-js-square text-light fa-2x'></i>
       </div>
-      <div className='mb-4 menu-link'>
+      <div className='mb-4 menu-link nav-link'>
         <i class='fab fa-python text-light fa-2x'></i>
       </div>
-      <div className='mb-4 menu-link'>
+      <div className='mb-4 menu-link nav-link'>
         <i class='far fa-gem text-light fa-2x'></i>
       </div>
-      <div className='mb-4 menu-link'>
+      <div className='mb-4 menu-link nav-link'>
         <i class='fab fa-java text-light fa-2x'></i>
       </div>
     </div>

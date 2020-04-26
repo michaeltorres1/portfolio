@@ -1,95 +1,11 @@
+@import url('./stylesheets/colors/backgroundColors.css');
+@import url('./stylesheets/navbar.css');
+@import url('./stylesheets/menu.css');
+@import url('./stylesheets/toggle.css');
+@import url('./stylesheets/mainWidget.css');
+@import url('./stylesheets/card.css');
+@import url('./stylesheets/footer.css');
+
 body {
   background-color: #1d1c2c;
-}
-
-.bg-primary {
-  background-color: #1d9cf7 !important;
-}
-
-.bg-dark {
-  background-color: #1d1e2e !important;
-}
-
-.bg-primary-light {
-  background-color: #e24dca;
-}
-
-#nav {
-  padding: 20px;
-  box-shadow: 1px 1px 1px #000;
-}
-
-#navTitle,
-.nav-link {
-  position: relative;
-  font-size: 1.3rem;
-  transition: top 5s ease;
-}
-
-.nav-link:hover {
-  cursor: pointer;
-  color: #41f0ca;
-  top: -1px;
-}
-
-.menu-link {
-  display: flex;
-  justify-content: center;
-}
-
-#menuWidget {
-  width: 5%;
-  border-radius: 5px;
-  box-shadow: 1px 1px 10px #000;
-  background: linear-gradient(#12629b, #06304e);
-  -webkit-transition: 0.5s ease-in-out;
-  -moz-transition: 0.5s ease-in-out;
-  -o-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
-}
-
-#mainWidget {
-  width: 93%;
-  border-radius: 5px;
-  box-shadow: 1px 1px 10px #000;
-  background: linear-gradient(#27293d, #243442);
-  -webkit-transition: 0.5s ease-in-out;
-  -moz-transition: 0.5s ease-in-out;
-  -o-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
-}
-
-#menuWidget:hover {
-  width: 30%;
-}
-
-.card-widget {
-  position: relative;
-  transition: top 5s ease;
-  padding: 5px 20px 5px 20px;
-  width: 30%;
-  border-radius: 5px;
-  box-shadow: 1px 1px 10px #000;
-  background: linear-gradient(#06304e, #06304e);
-}
-
-.card-widget:hover {
-  top: -1px;
-}
-
-#footer {
-  background: linear-gradient(#27293d, #243442);
-}
-
-#toggleLight {
-  position: fixed;
-  right: 0px;
-  top: 50%;
-  transition: top 5s ease;
-  z-index: 1000;
-}
-
-#toggleLight:hover {
-  cursor: pointer;
-  padding-right: 1px;
 }
