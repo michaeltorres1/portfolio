@@ -76,3 +76,7 @@ body {
 .card-widget:hover {
   top: -1px;
 }
+
+#footer {
+  background: linear-gradient(#27293d, #243442);
+}
