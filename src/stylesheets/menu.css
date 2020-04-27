@@ -3,6 +3,11 @@
   justify-content: center;
 }
 
+.menu-header {
+  display: flex;
+  justify-content: center;
+}
+
 #menuWidget {
   width: 5%;
   border-radius: 5px;
@@ -14,6 +19,26 @@
   transition: 0.5s ease-in-out;
 }
 
+.menu-link:hover > i {
+  color: #41f0ca !important;
+}
+
+.menu-link:hover > .my-menu-link {
+  color: #41f0ca !important;
+}
+
 #menuWidget:hover {
   width: 30%;
+}
+
+.my-menu-link {
+  display: none;
+}
+
+#menuWidget:hover .my-menu-link {
+  display: inline;
+}
+
+#menuWidget:hover .menu-link {
+  justify-content: flex-start;
 }

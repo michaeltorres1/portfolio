@@ -7,9 +7,9 @@ const Footer = () => {
         MICHAEL TORRES
       </div>
       <div className='search text-light mt-3'>
-        <i class='fab fa-github mr-5 nav-link'></i>
-        <i class='fab fa-angellist mr-5 nav-link'></i>
-        <i class='fab fa-linkedin-in nav-link'></i>
+        <i className='fab fa-github mr-5 nav-link'></i>
+        <i className='fab fa-angellist mr-5 nav-link'></i>
+        <i className='fab fa-linkedin-in nav-link'></i>
       </div>
     </nav>
   );
