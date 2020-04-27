@@ -9,11 +9,20 @@ const styles = {
   },
 };
 
-const ChangeTheme = () => {
+const ChangeTheme = ({ isDarkMode, dispatch }) => {
   return (
     <StyleRoot>
       <div id='toggleLight' className='test' style={styles.fadeInDownBig}>
-        <i className='fas fa-adjust fa-2x text-warning p-2 pr-4'></i>
+        <i
+          className={`fas fa-adjust fa-2x p-2 pr-4 ${
+            isDarkMode ? 'text-light' : 'text-dark'
+          }`}
+          onClick={() => {
+            isDarkMode
+              ? dispatch({ type: 'TURN_ON_LIGHTS', payload: false })
+              : dispatch({ type: 'TURN_OFF_LIGHTS', payload: true });
+          }}
+        ></i>
       </div>
     </StyleRoot>
   );

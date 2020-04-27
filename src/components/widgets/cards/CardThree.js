@@ -1,12 +1,28 @@
-import React from 'react';
+import React, { isValidElement } from 'react';
 
-const CardThree = () => {
+const CardThree = ({ isDarkMode }) => {
   return (
-    <div className='card-widget d-flex flex-column'>
-      <div className='font-weight-bold text-light text-center'>My Beliefs</div>
+    <div
+      className={`card-widget d-flex flex-column ${
+        isDarkMode ? 'card-widget-dark' : 'card-widget-light'
+      }`}
+    >
+      <div
+        className={`font-weight-bold text-center ${
+          isDarkMode ? 'text-light' : 'text-dark'
+        }`}
+      >
+        My Beliefs
+      </div>
       <hr />
       <div>
-        <p className='text-light font-weight-lighter text-center'>
+        <p
+          className={`text-center ${
+            isDarkMode
+              ? 'text-light font-weight-lighter'
+              : 'text-dark font-weight-light'
+          }`}
+        >
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed voluptas
           natus, consectetur optio numquam ab nisi consequatur, fugiat rem
           quibusdam impedit eos ad quo suscipit nihil? Dolorum, animi omnis

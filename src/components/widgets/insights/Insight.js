@@ -1,10 +1,10 @@
 import React from 'react';
 import Timeline from '../Timeline';
 
-const Insight = () => {
+const Insight = ({ isDarkMode }) => {
   return (
     <div className='mt-3 ml-3'>
-      <Timeline />
+      <Timeline isDarkMode={isDarkMode} />
     </div>
   );
 };

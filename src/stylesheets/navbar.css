@@ -12,6 +12,6 @@
 
 .nav-link:hover {
   cursor: pointer;
-  color: #41f0ca;
+  color: #41f0ca !important;
   top: -1px;
 }

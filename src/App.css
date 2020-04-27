@@ -8,10 +8,6 @@
 @import url('./stylesheets/card.css');
 @import url('./stylesheets/footer.css');
 
-body {
-  background-color: #1d1c2c;
-}
-
 img {
   width: 100%;
 }

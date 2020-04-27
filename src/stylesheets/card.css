@@ -5,7 +5,14 @@
   width: 30%;
   border-radius: 5px;
   box-shadow: 1px 1px 10px #000;
+}
+
+.card-widget-dark {
   background: linear-gradient(#06304e, #06304e);
+}
+
+.card-widget-light {
+  background: linear-gradient(#ffffff, #d1d7dd);
 }
 
 .card-widget:hover {

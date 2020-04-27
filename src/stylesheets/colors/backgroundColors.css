@@ -6,6 +6,10 @@
   background-color: #1d1e2e !important;
 }
 
+.bg-dark-light {
+  background-color: #1d1c2c !important;
+}
+
 .bg-primary-light {
   background-color: #e24dca;
 }

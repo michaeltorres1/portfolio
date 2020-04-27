@@ -12,11 +12,18 @@
   width: 5%;
   border-radius: 5px;
   box-shadow: 1px 1px 10px #000;
-  background: linear-gradient(#12629b, #06304e);
   -webkit-transition: 0.5s ease-in-out;
   -moz-transition: 0.5s ease-in-out;
   -o-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
+}
+
+.menu-widget-dark {
+  background: linear-gradient(#12629b, #06304e);
+}
+
+.menu-widget-light {
+  background: linear-gradient(#ffffff, #2d72a3);
 }
 
 .menu-link:hover > i {
