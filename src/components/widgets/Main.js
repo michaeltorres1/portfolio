@@ -14,7 +14,7 @@ const Main = ({ isDarkMode }) => {
           isDarkMode ? 'text-light' : 'text-dark'
         }`}
       >
-        INSIGHTS
+        TIMELINE
       </div>
       <Insight isDarkMode={isDarkMode} />
     </div>
