@@ -1,6 +1,41 @@
 import React from 'react';
 
-const Menu = ({ isDarkMode }) => {
+const Menu = ({ isDarkMode, dispatch }) => {
+  const timelineOn = (e) => {
+    e.preventDefault(e);
+    dispatch({ type: 'VIEW_TIMELINE', payload: true });
+  };
+
+  const educationOn = (e) => {
+    e.preventDefault(e);
+    dispatch({ type: 'VIEW_EDUCATION', payload: true });
+  };
+
+  const projectsOn = (e) => {
+    e.preventDefault(e);
+    dispatch({ type: 'VIEW_PROJECTS', payload: true });
+  };
+
+  const javascriptOn = (e) => {
+    e.preventDefault(e);
+    dispatch({ type: 'VIEW_JAVASCRIPT', payload: true });
+  };
+
+  const pythonOn = (e) => {
+    e.preventDefault(e);
+    dispatch({ type: 'VIEW_PYTHON', payload: true });
+  };
+
+  const rubyOn = (e) => {
+    e.preventDefault(e);
+    dispatch({ type: 'VIEW_RUBY', payload: true });
+  };
+
+  const javaOn = (e) => {
+    e.preventDefault(e);
+    dispatch({ type: 'VIEW_JAVA', payload: true });
+  };
+
   return (
     <div
       id='menuWidget'
@@ -35,6 +70,7 @@ const Menu = ({ isDarkMode }) => {
           className={`font-weight-light ml-3 my-menu-link ${
             isDarkMode ? 'text-light' : 'text-dark'
           }`}
+          onClick={(e) => timelineOn(e)}
         >
           Timeline
         </div>
@@ -49,6 +85,7 @@ const Menu = ({ isDarkMode }) => {
           className={`font-weight-light ml-3 my-menu-link ${
             isDarkMode ? 'text-light' : 'text-dark'
           } `}
+          onClick={(e) => educationOn(e)}
         >
           Education
         </div>
@@ -63,6 +100,7 @@ const Menu = ({ isDarkMode }) => {
           className={`font-weight-light ml-3 my-menu-link ${
             isDarkMode ? 'text-light' : 'text-dark'
           } `}
+          onClick={(e) => projectsOn(e)}
         >
           Projects
         </div>
@@ -77,6 +115,7 @@ const Menu = ({ isDarkMode }) => {
           className={`font-weight-light ml-3 my-menu-link ${
             isDarkMode ? 'text-light' : 'text-dark'
           } `}
+          onClick={(e) => javascriptOn(e)}
         >
           JavaScript
         </div>
@@ -91,6 +130,7 @@ const Menu = ({ isDarkMode }) => {
           className={`font-weight-light ml-3 my-menu-link ${
             isDarkMode ? 'text-light' : 'text-dark'
           } `}
+          onClick={(e) => pythonOn(e)}
         >
           Python 3
         </div>
@@ -105,6 +145,7 @@ const Menu = ({ isDarkMode }) => {
           className={`font-weight-light ml-3 my-menu-link ${
             isDarkMode ? 'text-light' : 'text-dark'
           } `}
+          onClick={(e) => rubyOn(e)}
         >
           Ruby
         </div>
@@ -119,6 +160,7 @@ const Menu = ({ isDarkMode }) => {
           className={`font-weight-light ml-3 my-menu-link ${
             isDarkMode ? 'text-light' : 'text-dark'
           } `}
+          onClick={(e) => javaOn(e)}
         >
           Java
         </div>

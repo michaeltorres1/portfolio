@@ -1,7 +1,16 @@
 import React from 'react';
 import Insight from './insights/Insight';
 
-const Main = ({ isDarkMode }) => {
+const Main = ({
+  isDarkMode,
+  isTimeline,
+  isEducation,
+  isProjects,
+  isJavaScript,
+  isPython,
+  isRuby,
+  isJava,
+}) => {
   return (
     <div
       id='mainWidget'
@@ -16,7 +25,16 @@ const Main = ({ isDarkMode }) => {
       >
         TIMELINE
       </div>
-      <Insight isDarkMode={isDarkMode} />
+      <Insight
+        isDarkMode={isDarkMode}
+        isTimeline={isTimeline}
+        isEducation={isEducation}
+        isProjects={isProjects}
+        isJavaScript={isJavaScript}
+        isPython={isPython}
+        isRuby={isRuby}
+        isJava={isJava}
+      />
     </div>
   );
 };

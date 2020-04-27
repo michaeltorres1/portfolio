@@ -13,6 +13,10 @@ img {
   width: 100%;
 }
 
+.education-img {
+  width: 20% !important;
+}
+
 @media (max-width: 869px) {
   #menuWidget {
     width: 10%;
