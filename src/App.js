@@ -1,4 +1,4 @@
-import React, { Fragment, useReducer } from 'react';
+import React, { useReducer } from 'react';
 import ChangeTheme from './components/common/ChangeTheme';
 import Navbar from './components/common/Navbar';
 import Menu from './components/widgets/Menu';

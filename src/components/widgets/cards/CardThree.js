@@ -1,4 +1,4 @@
-import React, { isValidElement } from 'react';
+import React from 'react';
 
 const CardThree = ({ isDarkMode }) => {
   return (

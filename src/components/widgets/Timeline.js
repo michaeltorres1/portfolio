@@ -175,7 +175,7 @@ const Timeline = ({ isDarkMode }) => {
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
-        className='vertical-timeline-element--enducation'
+        className='vertical-timeline-element--education'
         contentStyle={{ background: backgroundColor, color: textColor }}
         contentArrowStyle={{ borderRight: '7px solid #41f0ca' }}
         date='2014 - 2016'
@@ -194,13 +194,19 @@ const Timeline = ({ isDarkMode }) => {
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
-        className='vertical-timeline-element--enducation'
+        className='vertical-timeline-element--education'
         contentStyle={{ background: backgroundColor, color: textColor }}
         contentArrowStyle={{ borderRight: '7px solid #41f0ca' }}
         date='2600 BC'
         iconStyle={{ background: '#41f0ca', color: textColor }}
       >
-        <h1 className='vertical-timeline-element-title'>🤔</h1>
+        <span
+          role='img'
+          aria-label='thinking emoji'
+          className='vertical-timeline-element-emoji'
+        >
+          🤔
+        </span>
       </VerticalTimelineElement>
     </VerticalTimeline>
   );
