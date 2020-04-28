@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react';
-import Resume from './Resume';
 
 const ResumeButton = () => {
   return (
@@ -33,9 +32,7 @@ const ResumeButton = () => {
                 <span aria-hidden='true'>&times;</span>
               </button>
             </div>
-            <div class='modal-body'>
-              <Resume />
-            </div>
+            <div class='modal-body'></div>
             <div class='modal-footer'>
               <button
                 type='button'

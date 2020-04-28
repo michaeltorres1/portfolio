@@ -12,7 +12,6 @@
     "react": "^16.13.1",
     "react-animations": "^1.0.0",
     "react-dom": "^16.13.1",
-    "react-pdf": "^5.0.0-beta.3",
     "react-scripts": "3.4.1",
     "react-vertical-timeline-component": "^2.6.0"
   },
