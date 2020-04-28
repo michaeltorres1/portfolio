@@ -62,7 +62,7 @@ const Menu = ({ isDarkMode, dispatch }) => {
       <hr className='bg-dark' />
       <div className='mb-4 menu-link nav-link'>
         <i
-          class={`fas fa-code-branch fa-2x ${
+          className={`fas fa-code-branch fa-2x ${
             isDarkMode ? 'text-light' : 'text-dark'
           }`}
         ></i>

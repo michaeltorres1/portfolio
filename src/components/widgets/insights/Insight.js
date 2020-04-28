@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import Timeline from '../Timeline';
 import Education from '../Education';
 import Projects from '../Projects';
@@ -17,7 +17,20 @@ const Insight = ({
   isRuby,
   isJava,
 }) => {
-  let myInsight;
+  let myInsight = (
+    <Fragment>
+      <iframe
+        src='http://www.wikipediarr.com/'
+        frameborder='0'
+        className='embed-page'
+      />
+      <iframe
+        src='https://htoshow.herokuapp.com/#/'
+        frameborder='0'
+        className='embed-page'
+      />
+    </Fragment>
+  );
 
   if (isTimeline) {
     myInsight = <Timeline isDarkMode={isDarkMode} />;
