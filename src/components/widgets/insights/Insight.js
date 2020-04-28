@@ -1,4 +1,5 @@
 import React from 'react';
+import Introduction from '../Introduction';
 import Timeline from '../Timeline';
 import Education from '../Education';
 import Projects from '../Projects';
@@ -21,7 +22,7 @@ const Insight = ({
   isKeyboardFruitNinja,
   isWirr,
 }) => {
-  let myInsight;
+  let myInsight = <Introduction isDarkMode={isDarkMode} />;
 
   if (isTimeline) {
     myInsight = <Timeline isDarkMode={isDarkMode} />;

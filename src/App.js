@@ -16,7 +16,7 @@ const initialState = {
   isRuby: false,
   isJava: false,
   isHtoShow: false,
-  isKeyboardFruitNinja: false,
+  isKeyboardFruitNinja: true,
   isWirr: false,
 };
 

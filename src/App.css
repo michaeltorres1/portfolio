@@ -17,9 +17,9 @@ img {
   visibility: show;
 }
 
-/* iframe {
-  visibility: hidden;
-} */
+.mepic {
+  width: 20%;
+}
 
 .embed-page {
   width: 100%;
