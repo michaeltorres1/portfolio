@@ -9,6 +9,10 @@
 @import url('./stylesheets/footer.css');
 @import url('./stylesheets/timeline.css');
 
+embed {
+  height: 443px !important;
+}
+
 img {
   width: 100%;
 }
@@ -19,11 +23,6 @@ img {
 
 .mepic {
   width: 20%;
-}
-
-.embed-page {
-  width: 100%;
-  height: 680px;
 }
 
 .education-img {

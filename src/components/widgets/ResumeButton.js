@@ -1,11 +1,12 @@
 import React, { Fragment } from 'react';
+import Pdf from './michael-torres-resume.pdf';
 
 const ResumeButton = () => {
   return (
     <Fragment>
       <button
         type='button'
-        class='btn btn-primary'
+        className='btn btn-primary'
         data-toggle='modal'
         data-target='#exampleModalCenter'
       >
@@ -13,34 +14,35 @@ const ResumeButton = () => {
       </button>
 
       <div
-        class='modal fade'
+        className='modal fade'
         id='exampleModalCenter'
         tabindex='-1'
         role='dialog'
         aria-labelledby='exampleModalCenterTitle'
         aria-hidden='true'
       >
-        <div class='modal-dialog modal-dialog-centered' role='document'>
-          <div class='modal-content'>
-            <div class='modal-header'>
+        <div className='modal-dialog modal-dialog-centered' role='document'>
+          <div className='modal-content'>
+            <div className='modal-header'>
               <button
                 type='button'
-                class='close'
+                className='close'
                 data-dismiss='modal'
                 aria-label='Close'
               >
                 <span aria-hidden='true'>&times;</span>
               </button>
             </div>
-            <div class='modal-body'></div>
+            <div className='modal-body'>
+              <div className='d-flex justify-content-center'>
+                <embed src={Pdf} type='application/pdf' className='my-resume' />
+              </div>
+            </div>
             <div class='modal-footer'>
-              <button
-                type='button'
-                class='btn btn-secondary'
-                data-dismiss='modal'
-              >
-                Close
-              </button>
+              <a href={Pdf} download>
+                Download resume
+              </a>
+              <a href={Pdf}>View resume</a>
             </div>
           </div>
         </div>
