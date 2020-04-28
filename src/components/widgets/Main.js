@@ -2,6 +2,7 @@ import React from 'react';
 import Insight from './insights/Insight';
 
 const Main = ({
+  dispatch,
   isDarkMode,
   isTimeline,
   isEducation,
@@ -10,25 +11,10 @@ const Main = ({
   isPython,
   isRuby,
   isJava,
+  isHtoShow,
+  isKeyboardFruitNinja,
+  isWirr,
 }) => {
-  let header;
-
-  if (isTimeline) {
-    header = 'TIMELINE';
-  } else if (isEducation) {
-    header = 'EDUCATION';
-  } else if (isProjects) {
-    header = 'PROJECTS';
-  } else if (isJavaScript) {
-    header = 'JAVASCRIPT';
-  } else if (isPython) {
-    header = 'PYTHON';
-  } else if (isRuby) {
-    header = 'RUBY';
-  } else if (isJava) {
-    header = 'JAVA';
-  }
-
   return (
     <div
       id='mainWidget'
@@ -37,13 +23,12 @@ const Main = ({
       }`}
     >
       <div
-        className={`font-weight-light mt-3 ml-3 ${
+        className={`font-weight-light ml-3 ${
           isDarkMode ? 'text-light' : 'text-dark'
         }`}
-      >
-        {header}
-      </div>
+      ></div>
       <Insight
+        dispatch={dispatch}
         isDarkMode={isDarkMode}
         isTimeline={isTimeline}
         isEducation={isEducation}
@@ -52,6 +37,9 @@ const Main = ({
         isPython={isPython}
         isRuby={isRuby}
         isJava={isJava}
+        isHtoShow={isHtoShow}
+        isKeyboardFruitNinja={isKeyboardFruitNinja}
+        isWirr={isWirr}
       />
     </div>
   );

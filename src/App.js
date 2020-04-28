@@ -15,6 +15,9 @@ const initialState = {
   isPython: false,
   isRuby: false,
   isJava: false,
+  isHtoShow: false,
+  isKeyboardFruitNinja: false,
+  isWirr: false,
 };
 
 function reducer(state, action) {
@@ -106,6 +109,27 @@ function reducer(state, action) {
         isRuby: false,
         isJava: action.payload,
       };
+    case 'VIEW_HTOSHOW':
+      return {
+        ...state,
+        isKeyboardFruitNinja: false,
+        isWirr: false,
+        isHtoShow: action.payload,
+      };
+    case 'VIEW_KEYBOARD_FRUIT_NINJA':
+      return {
+        ...state,
+        isHtoShow: false,
+        isWirr: false,
+        isKeyboardFruitNinja: action.payload,
+      };
+    case 'VIEW_WIRR':
+      return {
+        ...state,
+        isHtoShow: false,
+        isKeyboardFruitNinja: false,
+        isWirr: action.payload,
+      };
     default:
       return state;
   }
@@ -122,6 +146,9 @@ const App = () => {
     isPython,
     isRuby,
     isJava,
+    isHtoShow,
+    isKeyboardFruitNinja,
+    isWirr,
   } = state;
 
   return (
@@ -132,6 +159,7 @@ const App = () => {
       <div className='d-flex ml-3 mt-3 mobile-view'>
         <Menu isDarkMode={isDarkMode} dispatch={dispatch} />
         <MainWidget
+          dispatch={dispatch}
           isDarkMode={isDarkMode}
           isTimeline={isTimeline}
           isEducation={isEducation}
@@ -140,6 +168,9 @@ const App = () => {
           isPython={isPython}
           isRuby={isRuby}
           isJava={isJava}
+          isHtoShow={isHtoShow}
+          isKeyboardFruitNinja={isKeyboardFruitNinja}
+          isWirr={isWirr}
         />
       </div>
       <Cards isDarkMode={isDarkMode} />

@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import Timeline from '../Timeline';
 import Education from '../Education';
 import Projects from '../Projects';
@@ -8,6 +8,7 @@ import Ruby from '../Ruby';
 import Java from '../Java';
 
 const Insight = ({
+  dispatch,
   isDarkMode,
   isTimeline,
   isEducation,
@@ -16,28 +17,26 @@ const Insight = ({
   isPython,
   isRuby,
   isJava,
+  isHtoShow,
+  isKeyboardFruitNinja,
+  isWirr,
 }) => {
-  let myInsight = (
-    <Fragment>
-      <iframe
-        src='http://www.wikipediarr.com/'
-        frameborder='0'
-        className='embed-page'
-      />
-      <iframe
-        src='https://htoshow.herokuapp.com/#/'
-        frameborder='0'
-        className='embed-page'
-      />
-    </Fragment>
-  );
+  let myInsight;
 
   if (isTimeline) {
     myInsight = <Timeline isDarkMode={isDarkMode} />;
   } else if (isEducation) {
     myInsight = <Education isDarkMode={isDarkMode} />;
   } else if (isProjects) {
-    myInsight = <Projects isDarkMode={isDarkMode} />;
+    myInsight = (
+      <Projects
+        dispatch={dispatch}
+        isDarkMode={isDarkMode}
+        isHtoShow={isHtoShow}
+        isKeyboardFruitNinja={isKeyboardFruitNinja}
+        isWirr={isWirr}
+      />
+    );
   } else if (isJavaScript) {
     myInsight = <JavaScript isDarkMode={isDarkMode} />;
   } else if (isPython) {
