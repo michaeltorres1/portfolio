@@ -9,12 +9,42 @@
 @import url('./stylesheets/footer.css');
 @import url('./stylesheets/timeline.css');
 
-embed {
+img {
+  width: 100%;
+  box-shadow: 1px 1px 6px black;
+}
+
+.embed-page {
+  width: 100% !important;
+  height: 800px !important;
+}
+
+.my-resume {
   height: 443px !important;
 }
 
-img {
-  width: 100%;
+.d-load-resume {
+  width: auto !important;
+}
+
+.d-load-resume {
+  box-shadow: 1px 1px 6px black !important;
+}
+
+.view-resume {
+  box-shadow: 1px 1px 6px black !important;
+}
+
+.see-resume-btn {
+  height: 200px;
+  font-size: 40px;
+  outline: none !important;
+}
+
+.btn:focus,
+.btn:active {
+  outline: none !important;
+  box-shadow: none;
 }
 
 .project-img:hover iframe {

@@ -28,7 +28,15 @@ const Projects = ({
       />
     );
   } else if (isHtoShow) {
-    myFrame = 'oops this one is private!!!';
+    myFrame = (
+      <span
+        role='img'
+        aria-label='thinking emoji'
+        className='vertical-timeline-element-emoji'
+      >
+        🤔
+      </span>
+    );
   }
 
   const showHtoShow = (e) => {

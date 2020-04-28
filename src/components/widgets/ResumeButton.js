@@ -6,7 +6,7 @@ const ResumeButton = () => {
     <Fragment>
       <button
         type='button'
-        className='btn btn-primary'
+        className='see-resume-btn btn bg-dark text-light card-widget w-100'
         data-toggle='modal'
         data-target='#exampleModalCenter'
       >
@@ -38,11 +38,20 @@ const ResumeButton = () => {
                 <embed src={Pdf} type='application/pdf' className='my-resume' />
               </div>
             </div>
-            <div class='modal-footer'>
-              <a href={Pdf} download>
+            <div class='modal-footer d-flex justify-content-between'>
+              <a
+                href={Pdf}
+                className='d-load-resume bg-dark text-light card-widget'
+                download
+              >
                 Download resume
               </a>
-              <a href={Pdf}>View resume</a>
+              <a
+                href={Pdf}
+                className='view-resume bg-dark text-light card-widget'
+              >
+                View resume
+              </a>
             </div>
           </div>
         </div>
