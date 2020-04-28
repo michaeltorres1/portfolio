@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import { Document } from 'react-pdf';
+import { Document, pdfjs } from 'react-pdf';
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-export default class App extends Component {
+export default class Resume extends Component {
   render() {
     return (
       <div>
