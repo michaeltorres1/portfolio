@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import Resume from '../Resume';
+import Resume from './Resume';
 
 const ResumeButton = () => {
   return (
