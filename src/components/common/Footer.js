@@ -17,9 +17,15 @@ const Footer = ({ isDarkMode }) => {
         MICHAEL TORRES
       </div>
       <div className={`search mt-3 ${isDarkMode ? 'text-light' : 'text-dark'}`}>
-        <i className='fab fa-github mr-5 nav-link'></i>
-        <i className='fab fa-angellist mr-5 nav-link'></i>
-        <i className='fab fa-linkedin-in nav-link'></i>
+        <a href='https://github.com/michaeltorres1'>
+          <i className='fab fa-github mr-5 nav-link'></i>
+        </a>
+        <a href='https://angel.co/u/michael-torres-21'>
+          <i className='fab fa-angellist mr-5 nav-link'></i>
+        </a>
+        <a href='https://www.linkedin.com/in/michael-torres-8649aa178/'>
+          <i className='fab fa-linkedin-in nav-link'></i>
+        </a>
       </div>
     </nav>
   );
