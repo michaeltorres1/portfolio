@@ -1,11 +1,12 @@
 import React from 'react';
 import ResumeButton from './ResumeButton';
+import Skills from './Skills';
 
 const Introduction = ({ isDarkMode }) => {
   return (
     <div className='d-flex flex-column'>
-      <div className='d-flex flex-row'>
-        <div className='w-75 ml-4 bg-dark card-widget rounded mr-4 mb-5 text-light'>
+      <div className='d-flex flex-row intro-card'>
+        <div className='w-75 ml-4 bg-dark card-widget intro-para rounded mr-4 mb-5 text-light'>
           <h2>Hi, My Name Is Michael Torres and I am a Software Engineer!</h2>
           <p className='font-weight-lighter'>
             A highly motivated and innovative recent graduate with a BS in
@@ -25,8 +26,9 @@ const Introduction = ({ isDarkMode }) => {
           className='mepic rounded mb-5'
         />
       </div>
-      <div className='d-flex flex-row mt-5 ml-4 mr-4'>
+      <div className='d-flex flex-row justify-content-between resume-and-skills mt-5 ml-4 mr-4'>
         <ResumeButton />
+        <Skills />
       </div>
     </div>
   );

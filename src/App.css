@@ -41,6 +41,14 @@ img {
   outline: none !important;
 }
 
+#skillsButton {
+  width: 45%;
+}
+
+#resumeButton {
+  width: 45%;
+}
+
 .btn:focus,
 .btn:active {
   outline: none !important;
@@ -84,8 +92,57 @@ img {
     margin-right: 1px !important;
   }
 
+  .intro-card {
+    flex-direction: column !important;
+  }
+
+  .intro-para {
+    width: 100% !important;
+  }
+
+  .mepic {
+    width: 100%;
+  }
+
+  .resume-and-skills {
+    flex-direction: column !important;
+  }
+
+  #resumeButton {
+    width: 100% !important;
+  }
+
+  #skillsButton {
+    width: 100% !important;
+  }
+
+  .d-load-resume {
+    width: 100% !important;
+    text-align: center;
+  }
+
+  .view-resume {
+    text-align: center;
+  }
+
   #menuWidget {
     width: 96%;
+  }
+
+  .menu-link {
+    justify-content: space-evenly;
+  }
+
+  #menuWidget:hover .menu-link {
+    justify-content: space-evenly;
+  }
+
+  #menuWidget:hover {
+    width: 96%;
+  }
+
+  .my-menu-link {
+    display: contents;
   }
 
   #mainWidget {

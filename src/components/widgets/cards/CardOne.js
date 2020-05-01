@@ -23,12 +23,16 @@ const CardOne = ({ isDarkMode }) => {
               : 'text-dark font-weight-light'
           }`}
         >
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed voluptas
-          natus, consectetur optio numquam ab nisi consequatur, fugiat rem
-          quibusdam impedit eos ad quo suscipit nihil? Dolorum, animi omnis
-          perferendis porro saepe, id sit dolores aspernatur quae rem reiciendis
-          voluptates eius quidem voluptatem non fugit! Eum tempora reprehenderit
-          obcaecati? Totam?
+          I first got in software engineering in Stony Brook university. I was
+          previously on a pre-med track and quickly realized that I loved
+          programming more. Programming to me felt like more exciting and was
+          more challenging. I went on to continue my studies in Western
+          Connecticut State University where I received my Bachelors degree in
+          Computer Science. After I wanted to make sure that I can have also the
+          practical skills needed to hit the ground running so I joined App
+          Academy and furthered my growth in knowledge in new technologies. I
+          know build apps almost everyday and and do problems on leetcode and
+          other platforms to keep my skills sharp!
         </p>
       </div>
     </div>

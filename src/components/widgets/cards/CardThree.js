@@ -12,7 +12,7 @@ const CardThree = ({ isDarkMode }) => {
           isDarkMode ? 'text-light' : 'text-dark'
         }`}
       >
-        My Beliefs
+        What I'm looking for...
       </div>
       <hr />
       <div>
@@ -23,12 +23,20 @@ const CardThree = ({ isDarkMode }) => {
               : 'text-dark font-weight-light'
           }`}
         >
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed voluptas
-          natus, consectetur optio numquam ab nisi consequatur, fugiat rem
-          quibusdam impedit eos ad quo suscipit nihil? Dolorum, animi omnis
-          perferendis porro saepe, id sit dolores aspernatur quae rem reiciendis
-          voluptates eius quidem voluptatem non fugit! Eum tempora reprehenderit
-          obcaecati? Totam?
+          <div className='d-flex flex-column'>
+            <div className='mb-2'>
+              A place with good snacks and sofas...just kidding! I am looking
+              for a place I can grow as a software engineer. Everytime I figure
+              out how to do something new I always think about how I can make it
+              better
+            </div>
+            <div>
+              I want to work with a team. I want to grow my skills learning from
+              professional engineers by collaborating with them, and reading
+              their code and learning new techniques.
+            </div>
+            <div></div>
+          </div>
         </p>
       </div>
     </div>

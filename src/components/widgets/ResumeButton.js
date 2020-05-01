@@ -5,8 +5,9 @@ const ResumeButton = () => {
   return (
     <Fragment>
       <button
+        id='resumeButton'
         type='button'
-        className='see-resume-btn btn bg-dark text-light card-widget w-100'
+        className='see-resume-btn btn bg-dark text-light card-widget'
         data-toggle='modal'
         data-target='#exampleModalCenter'
       >

@@ -23,12 +23,29 @@ const CardTwo = ({ isDarkMode }) => {
               : 'text-dark font-weight-light'
           }`}
         >
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed voluptas
-          natus, consectetur optio numquam ab nisi consequatur, fugiat rem
-          quibusdam impedit eos ad quo suscipit nihil? Dolorum, animi omnis
-          perferendis porro saepe, id sit dolores aspernatur quae rem reiciendis
-          voluptates eius quidem voluptatem non fugit! Eum tempora reprehenderit
-          obcaecati? Totam?
+          <ul>
+            <li>
+              Came out as top student in all physics courses thought during the
+              same semester!
+            </li>
+            <li>
+              Built LearnSQL - an application aimed to solve a problem to help
+              students learn and communicated better with their professors.
+              Based on an open source project called ClassDB.
+            </li>
+            <li>
+              Accepted in App Academy - a Full Stack Web Development program
+              with less than 3% acceptance rate
+            </li>
+            <li>
+              Built 3 new apps within a month time - (I can do this quicker
+              now).
+            </li>
+            <li>
+              Learned a whole new tech stack and built a Full Stack application
+              all in 2 days.
+            </li>
+          </ul>
         </p>
       </div>
     </div>
