@@ -12,11 +12,6 @@ const Navbar = ({ isDarkMode }) => {
         MT
       </div>
       <div className='search text-light nav-search-links'>
-        <i
-          className={`fas fa-search mr-5 ${
-            isDarkMode ? 'text-light' : 'text-dark'
-          } nav-link`}
-        ></i>
         <a href='https://github.com/michaeltorres1'>
           <i
             className={`fab fa-github mr-5 ${
